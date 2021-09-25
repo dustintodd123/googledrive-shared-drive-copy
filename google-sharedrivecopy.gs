@@ -1,4 +1,5 @@
 function startv2() {
+  // Google App Script to the rescue
   // Code adapted from this artcile https://www.labnol.org/code/19979-copy-folders-drive
   // Thank you Amit Agarwal https://github.com/labnol
   // This script will copy all files and folders from the source Folder ID to a Destination Folder ID
