@@ -6,8 +6,8 @@ function startv2() {
   // If you have been driven insane by Google Drives inability to copy a folder structure from MyDrive to a Shared drive BOOM!
   // 
 
-  var sourceFolderId = "0B6NGZzLlehR2dlFuRnN6SnJKN3M"; //Folder ID of the folder structure you want to copy
-  var targetParentFolderId = "1dABjn4OGLcdvwjBLXCDanatxNGdSNnKR";  //Target parent folder ID where the source folder will be copied
+  var sourceFolderId = "XXXX"; //Folder ID of the folder structure you want to copy
+  var targetParentFolderId = "XXXX";  //Target parent folder ID where the source folder will be copied
   
   var sourceFolder = DriveApp.getFolderById(sourceFolderId); //Source Folder
   var targetParent = DriveApp.getFolderById(targetParentFolderId); //Parent Folder (target)
