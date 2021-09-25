@@ -6,6 +6,7 @@ function startv2() {
   // The Source Folder name will be created in the destination folder
   // If you have been driven insane by Google Drives inability to copy a folder structure from MyDrive to a Shared drive BOOM!
   // 
+  // Important note: Enable the Drive service in the script editor https://developers.google.com/apps-script/advanced/drive
 
   var sourceFolderId = "XXXX"; //Folder ID of the folder structure you want to copy
   var targetParentFolderId = "XXXX";  //Target parent folder ID where the source folder will be copied
