@@ -17,4 +17,4 @@ Getting started with Google App Script https://developers.google.com/apps-script
 11. Next comes the "Google hasn’t verified this app" warning. To get past this click "Advanced" then "Go to Untitled project (unsafe)"
 12. Click "Allow" on the permission dialog
 
-Code adapted from this article https://www.labnol.org/code/19979-copy-folders-drive . Thank you @labnol 
+Code adapted from this article https://www.labnol.org/code/19979-copy-folders-drive . Thank you [Amit Agarwal](https://github.com/labnol).
