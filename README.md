@@ -7,8 +7,8 @@ Getting started with Google App Script https://developers.google.com/apps-script
 1. https://script.google.com/
 2. Click New Project
 3. Delete the template code and paste in the code from [google-sharedrivecopy.gs](https://github.com/dustintodd123/googledrive-shared-drive-copy/blob/main/google-sharedrivecopy.gs) in this project
-4. Edit the sourceFolderId to match the folder ID of the source of the copy (examine the folder URL, the ID is obvious) ` var sourceFolderId = "XXXX"; `
-5. If you want the folder structured copied to the root of Mydrive leave the targetParentFolderId variable blank, otherwise provide the ID of the target folder `var targetParentFolderId = "";`
+4. Edit the sourceFolderIdGlobal to match the folder ID of the source of the copy (examine the folder URL, the ID is obvious) `PropertiesService.getScriptProperties().setProperty('sourceFolderIdGlobal', 'xxx'); `
+5. If you want the folder structured copied to the root of Mydrive leave the targetParentFolderId variable blank, otherwise provide the ID of the target folder `PropertiesService.getScriptProperties().setProperty('targetParentFolderIdGlobal', 'xxx');`
 6. Click Services and add the Drive API
 7. Click Save
 8. Click Run
